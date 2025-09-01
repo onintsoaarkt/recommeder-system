@@ -11,7 +11,7 @@ def load_and_preprocess_data(ratings_file="ratings.csv"):
     """Loads ratings data and creates necessary mapping and data structures."""
     print("Loading and preprocessing data...")
     if not os.path.exists(ratings_file):
-        raise FileNotFoundError(f"{ratings_file} not found. Please download the MovieLens 25M dataset and place it in the root directory.")
+        raise FileNotFoundError(f"{ratings_file} not found. Download the MovieLens 25M dataset and place it in the root directory.")
 
     with open(ratings_file, encoding='utf-8') as r:
         ratings_reader = csv.reader(r)
