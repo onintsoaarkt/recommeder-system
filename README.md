@@ -1,6 +1,6 @@
 # Movie recommendation system from scratch
 
-This repository contains the code and documentation for a movie recommendation system. The system uses the MovieLens 25M dataset to provide movie recommendations based on user ratings.
+This repository contains the code and documentation for a movie recommendation system.
 
 
 ## Dataset
