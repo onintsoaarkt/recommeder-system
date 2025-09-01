@@ -2,17 +2,6 @@
 
 This repository contains the code and documentation for a movie recommendation system. The system uses the MovieLens 25M dataset to provide movie recommendations based on user ratings.
 
-## File Structure
-.
-├── saved_models/
-│   ├── usr_vect.npy
-│   ├── usr_bias.npy
-│   ├── itm_vect.npy
-│   └── itm_bias.npy
-├── notebook.ipynb
-├── README.md
-└── requirements.txt
-
 
 ## Dataset
 MovieLens 25M dataset from the [GroupLens website](https://grouplens.org/datasets/movielens/25m/).
