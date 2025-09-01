@@ -7,7 +7,7 @@ This repository contains the code and documentation for a movie recommendation s
 MovieLens 25M dataset from the [GroupLens website](https://grouplens.org/datasets/movielens/25m/).
 
 
-## Methodology
+## Description
 
 This project implements a collaborative filtering recommendation system using matrix factorization with latent vectors. The process includes:
 1.  **Data Loading and Preprocessing**: Loading the 25 million ratings and creating efficient data structures for training.
