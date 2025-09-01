@@ -57,7 +57,7 @@ def main():
         item_vec=item_vec, item_bi=item_bi
     )
     print(recommendations_lotr)
-    print("\n" + "-"*50 + "\n")
+    # print("\n" + "-"*50 + "\n")
 
     # Example 2: Toy Story
     print(">>> Query: 'Toy Story'")
@@ -69,7 +69,7 @@ def main():
         item_vec=item_vec, item_bi=item_bi
     )
     print(recommendations_ts)
-    print("\n" + "-"*50 + "\n")
+    # print("\n" + "-"*50 + "\n")
 
 if __name__ == '__main__':
     main()
